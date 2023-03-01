@@ -77,8 +77,8 @@ export const Banner = () => {
   };
   
 
-  function goToContact() {
-    window.location.hash = '#connect';
+  function goToDriveResume() {
+    window.location.href = 'https://drive.google.com/file/d/1Cmj1hPH3Ev5yHQYIgk4tbgf4idX6rxFN/view';
   }
   
   return (
@@ -105,13 +105,13 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I'm a Web Develompent from India,
+                    I'm a Web Developer from India,
                     currently persuing my undergraduation in CS. I'm also a community administrator at Dev Hac.feel free to reach out!
                   </p>
                     <button
-                      onClick={goToContact}
+                      onClick={goToDriveResume}
                     >
-                      Contact me
+                      See My Resume
                       <ArrowRightCircle size={25} />
                     </button>
                 </div>
